@@ -1,0 +1,26 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .password {
+    border-bottom: 1px solid #979797;
+  }
+  
+  .password input {
+    border: 0;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .password button {
+    border: 0;
+    background-color: transparent;
+    font-size: 24px;
+    outline: none;
+    cursor: pointer;
+  }
+  

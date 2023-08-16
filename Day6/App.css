@@ -1,0 +1,82 @@
+html,
+body {
+  background: #4b4a4a;
+  font-family: "Lato", sans-serif;
+}
+
+svg {
+  position: absolute;
+  top: 60px;
+  height: 700px;
+  width: 80%; /* Changed width to 80% for larger SVG */
+  left: 50%;
+  margin-left: -40%; /* Adjusted margin to center the larger SVG */
+}
+
+.polygon,
+polygon {
+  transform-origin: 50% 50%;
+}
+
+.react-letters path {
+  stroke-dasharray: 200;
+}
+
+.cls-2 {
+  fill: url(#linear-gradient);
+}
+
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6 {
+  fill: none;
+  stroke-miterlimit: 10;
+}
+
+.cls-3 {
+  stroke: url(#linear-gradient-2);
+}
+
+.cls-4,
+.cls-5 {
+  stroke: #8e7e7e;
+}
+
+.cls-4 {
+  opacity: 0.24;
+}
+
+.cls-6 {
+  stroke: #000;
+  opacity: 0.2;
+}
+
+button {
+  padding: 15px 20px; /* Increased padding for medium size */
+  background: black;
+  color: #8e7e7e;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  margin: 20px auto 0;
+  display: table;
+  opacity: 0.6;
+  font-style: italic;
+  letter-spacing: 0.03em;
+  transition: 0.5s ease all;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  svg {
+    width: 100% !important;
+    left: 0% !important;
+    margin-left: 0% !important;
+  }
+}

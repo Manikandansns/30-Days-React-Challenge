@@ -1,0 +1,35 @@
+
+  
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Add styles for the Slider */
+  .slider-container {
+    width: 300px;
+    transition: width 0.3s ease; /* Add a smooth width transition */
+  }
+  
+  /* Style the Slider thumb for better visibility */
+  .MuiSlider-thumb {
+    width: 20px;
+    height: 20px;
+   background-image: url('https://www.reshot.com/free-svg-icons/item/arrow-right-ZP2WDL9B8N/') !important;
+    border-radius: 50%; /* Make the thumb circular */
+    transition: background-color 0.3s ease; /* Add a smooth background-color transition */
+  }
+  
+  /* Style the emojis */
+  .emoji {
+    font-size: 50px;
+  }
+  
+  /* Remove background color and border of value labels */
+  .css-nnid7-MuiSlider-valueLabel {
+    background: none !important;
+    border: none !important;
+  }
+  
